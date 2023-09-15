@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+   
+    <link rel="stylesheet" href="path/to/fontawesome.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <!-- <div class="left">Kamna's Portfolio</div>
+        <div class="container"> -->
+        <nav>
+            <div class="left">PORTFOLIO.</div>
+            <div class="container">
+                <ul>
+
+                    <li><a href="#firstSection">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skill">Skills</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#achievement">Achievement</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+             </div>
+            </nav>
+        </header>
+    <!-- <div class="left">Kamna's Portfolio</div>
+    <div class="container">
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Skills</a></li>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </div> -->
+<!-- </div> -->
+<main>
+    <section class="firstSection">
+        <div class="leftSection">
+            Hi,My name is <span class="pink">Kamna</span>
+            <div>and I am a passionate</div>
+            <span id="element"></span>
+            <div class="button">
+                <a href="/img/KamnaPrakashResume .pdf" target="_blank">
+                <button class="btn1">Download Resume</button></a>
+                <a href="https://github.com/kamnaprakash" target="_blank">
+                <button class="btn1">Visit Github</button></a>
+            </div>
+        </div>
+        <div class="rightSection">
+            <img src="img/home.jpeg" alt="">
+        </div>
+    </section>
+</main>
+
+<!-- -----------------about------------ -->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="img/photo.jpeg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>
+                    Enthusiastic and motivated software developer with a solid foundation in computer science and a passion for coding. Currently, pursuing B.Tech<b>(CSE)</b> from I.T.S Engineering College,Greater Noida. I possess a deep understanding of programming languages such as C, JAVA and MySql and a strong aptitude for problem-solving. Through personal projects and coursework, I've demonstrated my ability to analyze requirements, design software solutions, and write clean, efficient code. Eager to contribute my skills to a dynamic team, learn from experienced professionals, and grow as a software developer in a collaborative environment.
+                </p>
+
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('education')">Education</p>
+                    <!-- <p class="tab-links">Education</p> -->
+                </div>
+                <div class="tab-contents " id="education">
+                    <ul>
+                        <li><span>2020 - 2024</span><Br>B.Tech-Computer Science<br>I.T.S Engineering College,Greater Noida</li>
+                        <li><span>2020</span><br>Intermediate<br>Carmel School, Gorakhpur</li>
+                        <li><span>2018</span><br>Intermediate<br>Carmel School, Gorakhpur</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+ <div id="skill" >
+    <div class="container">
+        <h1 class="sub-title">Skills</h1>
+        <div class="services">
+            <div class="ski-items">C</div>
+            <div class="ski-items">JAVA(CORE)</div>
+            <div class="ski-items">HTML/CSS</div>
+            <div class="ski-items">JavaScript</div>
+            <div class="ski-items">My SQL</div>
+            <div class="ski-items">Git</div>
+            <div class="ski-items">OOPs</div>
+            <div class="ski-items">DBMS</div>
+            <div class="ski-items">Node.js</div>
+            <div class="ski-items">Express.js</div>
+            <!-- <div class="ski-items">MongoDB</div>  -->
+        </div>
+    </div>
+
+ </div>
+
+    <!-- <h1 class="sub-title">Skills</h1>
+    <div class="ski-items">C++</div>
+    <div class="ski-items">OOPs</div>
+    <div class="ski-items">HTML/CSS</div>
+    <div class="ski-items">JavaScript</div>
+    <div class="ski-items">SQL</div>
+    <div class="ski-items">Git</div>
+    <div class="ski-items">Github</div>
+    <div class="ski-items">React.js</div>
+    <div class="ski-items">Node.js</div>
+    <div class="ski-items">Express.js</div>
+    <div class="ski-items">EJS</div>
+    <div class="ski-items">MongoDB</div>  -->
+
+<!-- -----------------portfolio------------ -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="img/calculator2.png" height="300">
+                <div class="layer">
+                    <h3>Basic Calculator</h3>
+                    <p>• Developed an efficient calculator tool with a user-friendly interface using HTML, CSS, and JavaScript.<br>
+                        Programmed the calculator's logic using JavaScript, enabling users to perform calculations and obtain
+                        accurate results.<br>• Tech: in HTML, CSS, and JavaScript.</p>
+                        <a href="https://kamnaprakash.github.io/Calculator/" target="_blank"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="img/quiz_game.webp" height="300">
+                <div class="layer">
+                    <h3>Quiz Game Application</h3>
+                    <p>• A quiz game in which a basic java questions are asked with a 50-50
+                        lifeline and a time limit of 15secs.<br>•Tech: Core JAVA and some basic OOPS concepts.</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="img/desktop1.png" height="300">
+                <div class="layer">
+                    <h3>Brick Breaker Game</h3>
+                    <p>• A basic game in which the player breaks the brick with a ball to achieve a higher score.<br>• Tech: Core JAVA and some basic OOPS concepts.</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="img/desktop1.png" height="300">
+                <div class="layer">
+                    <h3>Client-Server Chat Application</h3>
+                    <p>• Developed and implemented a high-performance chat application utilizing server-client architecture, resulting in a
+                        40% improvement in real-time communication efficiency between users. The application is a desktop based application and is implemented using Swing and awt.<br>• Tech: Core JAVA and some basic OOPS concepts.</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="img/custom_short_url-1-1.jpg" height="300">
+                <div class="layer">
+                    <h3>Custom URL shortener</h3>
+                    <p>• Developed and implemented a highly efficient custom URL shortener using Node.js, Express.js, and MongoDB; short-
+                        ened long URLs into user-friendly links, while tracking and reporting total visits and clicks, optimizing link perfor-
+                        mance.<br>• Tech: Node.js, Express, MongoDB</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <!-- <a href="#" class="btn">See more</a> -->
+    </div>
+</div>
+
+<div id="achievement">
+    <div class="container">
+        <h1 class="sub-title">Achievements</h1>
+        <p class="layer1"> ● Solved 150+ Problems on LeetCode.<a href="https://leetcode.com/kamnaprakash292002/" target="_blank"><i class="fa-solid fa-up-right-from-square"></i></a><br>
+            ● Earned HackerRank badges in java, SQL, C.<a href="https://www.hackerrank.com/kamnaprakash2921" target="_blank"><i class="fa-solid fa-up-right-from-square"></i></a><br> ● Part of fest management team as Head
+            Coordinator.</p>
+    </div>
+</div>
+
+<!-- -----------------contact------------ -->
+<div id="contact">
+    <div class="container">
+        <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p><i class="fa-solid fa-paper-plane"></i>kamnaprakash292002@gmail.com</p>
+            <p><i class="fa-solid fa-square-phone"></i>8601381280</p>
+            <div class="social-icons">
+                <a href="https://twitter.com/home" target="_blank"><i class="fa-brands fa-twitter"></i></i></a>
+                <a href="https://twitter.com/home"><i class="fa-brands fa-instagram" target="_blank"></i></a>
+                <a href="https://www.linkedin.com/in/kamna-prakash-a37a46207/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+
+            </div>
+        </div>
+        <div class="contact-right">
+            <form name="submit-to-google-sheet">
+                <input type="text" name="Name" placeholder="Your Name" required>
+                <input type="email" name="Email" placeholder="Your Email" required>
+                <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                <button type="submit" class="btn2" onclick="myFunction()">Submit</button>
+            </form>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Made By - <B>KAMNA PRAKASH</B><i class="fa-solid fa-heart"></i></p>
+    </div>
+</div>
+
+
+<script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+<script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+<!-- Setup and start animation! -->
+<script>
+  var typed = new Typed('#element', {
+    strings: ['Frontend Developer.', 'Software Developer.'],
+    typeSpeed: 50,
+  });
+
+//   var tablinks = document.getElementsByClassName("tab-links");
+//   var tabcontents = document.getElementsByClassName("tab-contents");
+
+//   function opentab(tabname){
+//     for(tablink of tablinks){
+//         tablink.classList.remove("active-link");
+//     }
+//     for(tabcontent of tabcontents){
+//         tabcontent.classList.remove("active-tab");
+//     }
+// //     event.currentTarget.classList.add("active-link");
+// //      document.getElementById(tabname).classList.add("active-tab");
+
+  
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbw7eHRfpS3IGm2kQ2oUM0wM0LjbF7tBy-4FaCNUTFz013UNMurzKWR8_4P8zYLqHLcZ/exec'
+    const form = document.forms['submit-to-google-sheet']
+
+ 
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      alert("Message sent successfully");
+     fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+
+        .then(response => {
+           form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    });
+  </script>
+</body>
+</html>
